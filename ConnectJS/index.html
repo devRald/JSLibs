@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="connect.min.js"></script>
+	<!-- <script src="try.js"></script> -->
+</head>
+<body>
+	
+	
+	<script>
+	ConnectJS.connected(function(e){
+		console.log("device connected")
+	})
+	var a = ConnectJS.isConnected();
+	</script>
+</body>
+</html>
